@@ -16,6 +16,16 @@
   padding: 0 310px;
   margin: 20px 0;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.box p {
+  font-size: 20px;
+}
+
+.phone {
+  text-decoration: none;
+  color: black;
 }
 
 .box h1,
@@ -71,10 +81,9 @@ p {
   padding: 150px 300px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-/* more section */
-
-#more-section h1 {
-  height: 100vh;
+.italics {
+  font-style: italic;
 }
